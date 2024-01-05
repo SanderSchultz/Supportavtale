@@ -1,0 +1,48 @@
+{
+  "name": "supportavtale",
+  "version": "1.0.0",
+  "description": "Elkjøp",
+  "main": "./src/index.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "sandersc",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^6.5.1",
+    "electron": "^22.0.0",
+    "electron-builder": "^22.10.3"
+  },
+  "dependencies": {
+    "alert": "^5.1.1",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto-js": "^4.1.1",
+    "electron-dl": "^3.5.0",
+    "electron-json-storage": "^4.5.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-store": "^8.1.0",
+    "node-fetch": "^2.6.6",
+    "npm": "^9.1.3",
+    "prebuild-install": "^7.1.1",
+    "request": "^2.88.2"
+  },
+  "build": {
+    "productName": "Support+",
+    "appId": "support.Support",
+    "win": {
+      "target": [
+        "portable"
+      ]
+    },
+    "icon": "./src/elkjoplogo.ico",
+    "portable": {
+      "artifactName": "Support.exe"
+    },
+    "directories": {
+      "output": "./../Output"
+    }
+  }
+}

@@ -1,0 +1,559 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #949aa7;
+    background-color: transparent;
+}
+
+.supermainApp {
+    background-color: #131215;
+    border-radius: 10px;
+    height: 100vh;
+    opacity: 100%;
+}
+
+.mainApp{
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 7px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mainApp > .topebar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 6vw;
+    background-color: #131215;
+    border-color: #2C313C;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-app-region: drag;
+    opacity: 100%;
+}
+
+.topebar > .imgar {
+    width: 14vw;
+    height: 5.5vw;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#giffen{
+    margin-left: 31vw;
+    position: absolute;
+    margin-top: -30vw;
+    /* background-image: url(../images/elkjopformain.png); */
+    width: 26vw;
+    height: 10vw;
+}
+
+#Gaming:hover{
+    background-color: #131215;
+}
+
+#Gaming:hover ~ #giffen{
+    height: 25vw;
+    width: 25vw;
+    margin-top: -35vw;
+    background-image: url(../images/mario.gif);
+}
+
+#Gaming:hover ~ #parah3{
+    height: 20vw;
+    width: 20vw;
+    margin-top: -60vw;
+    margin-left: 34vw;
+    font-size: 1.2vw;
+}
+
+
+#RTG:hover{
+    background-color: #131215;
+}
+
+#RTG:hover ~ #giffen{
+    height: 20vw;
+    width: 20vw;
+    margin-top: -35vw;
+    margin-left: 35vw;
+    background-image: url(../images/windows-xp.gif);
+}
+
+.loginbutton {
+    text-align: center;
+}
+
+.loginimage{
+    display: grid;
+    place-items: center;
+}
+
+#RTG:hover ~ #parah{
+    height: 20vw;
+    width: 20vw;
+    margin-top: -40vw;
+    margin-left: 34vw;
+    font-size: 1.2vw;
+}
+
+#Remotefix:hover ~ #giffen{
+    background-image: url(../images/remote.gif);
+    height: 14vw;
+    margin-top: -30vw;
+}
+
+#Remotefix:hover ~ #parah2{
+    height: 20vw;
+    width: 20vw;
+    margin-top: -40vw;
+    margin-left: 34vw;
+    font-size: 1.2vw;
+}
+
+
+#Remotefix:hover{
+    background-color: #131215;
+}
+
+#Benchmark:hover{
+    background-color: #131215;
+}
+
+#Benchmark:hover ~ #giffen{
+    height: 40vw;
+    width: 50vw;
+    margin-top: -40vw;
+    margin-left: 23vw;
+    background-image: url(../images/gpu.gif);
+    transform: rotate(90deg);
+}
+
+#Benchmark:hover ~ #parah5{
+    height: 20vw;
+    width: 20vw;
+    margin-top: -75vw;
+    margin-left: 34vw;
+    font-size: 1.2vw;
+}
+
+#Cloud:hover ~ #parah4{
+    height: 20vw;
+    width: 20vw;
+    margin-top: -65vw;
+    margin-left: 34vw;
+    font-size: 1.2vw;
+}
+
+#Cloud:hover ~ #giffen{
+    height:33vw;
+    width: 45vw;
+    margin-top: -40vw;
+    margin-left: 21vw;
+    background-image: url(../images/CC.gif);
+}
+
+#Cloud:hover{
+    background-color: #131215;
+}
+
+.hiddenimage{
+    visibility: hidden;
+}
+
+.imgar{
+    width: 14vw;
+    height: 5.5vw;
+    margin-left: 6vw;
+    margin-top: 2vw;
+    user-select: none;
+    z-index: 0;
+}
+
+.imgarbugs {
+    width: 500px;
+    height: 525.5px;
+    margin-left: 0px;
+    margin-top: -54px;
+    user-select: none;
+    z-index: 0;
+}
+
+.images {
+    display: block;
+    width: 80%;
+    margin-top: -1vw;
+    margin-left: 3vw;
+}
+
+.imgar43 {
+    width: 240px;
+    height: 97.5px;
+    margin-left: 130px;
+    margin-top: -30px;
+    user-select: none
+}
+
+.topebar > .button {
+    background-color: #131215;
+    color: #989898;
+    width: 22px;
+    height: 22px;
+    margin-top: -3px;
+    margin-left: 0vw;
+    border: 0px;
+    -webkit-app-region: no-drag;
+}
+
+.topebar > .buttonMinimize{
+    background-color: #131215;
+    color: #989898;
+    width: 22px;
+    height: 22px;
+    margin-top: -4px;
+    margin-left: 95.7vw;
+    border: 0px;
+    -webkit-app-region: no-drag;
+}
+
+.topebar > .buttonMinimize:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.topebar > .button:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.gridden{
+    display: grid;
+    grid-template-columns: 5.5fr 10fr 5.5fr 3fr 5.5fr 3fr;
+    position: relative;
+}
+
+.gridden2{
+    display: grid;
+    grid-template-columns: 5.5fr 3fr 5.5fr 3fr 5.5fr 3fr;
+    position: relative;
+}
+
+.btn-group{
+    width: 25.2vw;
+    height: 100vw;
+    margin-top: -6vw;
+    background-color: #1F1F21;
+}
+
+.btn-group button {
+    font-size: 2vw;
+    background-color: transparent;
+    color: #ffffffc4;
+    border-radius: 10px;
+    padding: 10px;
+    width: 23.2vw;
+    height: 7vw;
+    display: block;
+    margin-left: 0vw;
+    margin-top: 4vw;
+    border: none;
+    margin-left: 3vw;
+    text-align: left;
+    text-indent: 10%;
+}
+
+.btn-group button:hover{
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #13121593;
+}
+
+.btn-group p {
+    font-size: 1vw;
+    color: #a7a1a1;
+    width: 60vw;
+    height: 3vw;
+    display: block;
+    margin: auto;
+    margin-left:67vw;
+    margin-top: 4.3vw;
+    text-align: center;
+}
+
+#backtomain {
+    font-size: 2.7vw;
+    height: 1vw;
+    margin-left: 3vw;
+    user-select: none;
+    left: 0%;
+    width: 15vw;
+}
+
+#backtomain:hover {
+    cursor: pointer;
+    color: rgb(191, 194, 194)
+}
+
+::placeholder {
+    color: #787878;
+}
+
+.startbtn{
+    font-size: 2.3vw;
+    background-color: #1F1F21;
+    color: #a7a1a1;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20vw;
+    height: 5vw;
+    border-color: #2C313C;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+}
+
+.remotefix{
+    margin-left: 4vw;
+}
+
+.startbtn:hover{
+    background-color: #1F1F21;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.startbtn:focus{
+    outline: none;
+}
+
+.pdfbtn{
+    font-size: 2vw;
+    background-color: #1F1F21;
+    color: #a7a1a1;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20vw;
+    height: 6vw;
+    display: block;
+    margin: auto;
+    border: none;
+    margin-top: 3vw;
+}
+
+.pdfbtn:hover{
+    background-color: #1F1F21;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.pdfbtn:focus{
+    outline: none;
+}
+
+.pdfLogoes {
+    height: 25px;
+    width: 25px;
+    user-select: none;
+}
+
+.pdfLogoesElkjop {
+    height: 22px;
+    width: 16px;
+    user-select: none;
+}
+
+.input-group input{
+    display: block;
+    margin: auto;
+    font-size: 15pt;
+    background-color: #1F1F21;
+    color: #b8b8b8;
+    border-radius: 5px;
+    padding: 10px;
+    height: 20px;
+    width: 280px;
+    text-align: center;
+    border-color: #2C313C;
+    border: none;
+    user-select: none;
+    margin-top: 1vw;
+}
+
+.input-group input:focus{
+    outline: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 5.5fr 1fr 1fr 1.5fr 1fr 1fr 1fr;
+    position: relative;
+}
+
+.grid4boxes{
+    display: grid;
+    grid-template-columns: 3.2fr 4fr 4fr 4fr 4fr 4fr 3fr;
+    position: relative;
+    height: 5vw;
+    margin-top: 0vw;
+    margin-left: 1vw;
+}
+
+.grid4months{
+    display: grid;
+    grid-template-columns: 4.2fr 5.2fr 5.2fr 5.2fr 5.2fr 5.2fr 4fr;
+    position: relative;
+    margin-top: -2vw;
+    margin-left: 1vw;
+}
+
+.grid4months > div{
+    user-select: none;
+    padding-top: 5px;
+    padding-left: 7px;
+    font-weight: 700;
+}
+
+.grid4pdfNames{
+    display: grid;
+    grid-template-columns: 4.8fr 1fr 1fr 4fr;
+    position: relative;
+}
+
+/* Hide the default checkbox */
+input[type=checkbox] {
+    visibility: hidden;
+    width: 13px;
+    height: 10px;
+    position: absolute;
+    /* left: -9; */
+}
+  
+/* Creating a custom checkbox
+based on demand */
+.geekmark {
+    position: absolute;
+    top: 10;
+    left: 20;
+    height: 27px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: #1F1F21;
+    /* border: 1px solid black; */
+}
+  
+
+  
+/* Specify the background color to be
+shown when checkbox is checked */
+.main input:checked ~ .geekmark {
+    background-color: #1F1F21;
+}
+  
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.geekmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.geekmark:hover {
+    cursor: pointer;
+}
+  
+/* Display checkmark when checked */
+.main input:checked ~ .geekmark:after {
+    display: block;
+}
+  
+/* Styling the checkmark using webkit */
+/* Rotated the rectangle by 45 degree and 
+showing only two border to make it look
+like a tickmark */
+.main .geekmark:after {
+    left: 10px;
+    top: 3px;
+    bottom: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid #a7a1a1;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#closeBtn:focus {
+    outline: none;
+}
+
+.mcafee{
+    color: #d81818;
+    user-select: none;
+    font-weight: 700;
+}
+
+.office{
+    color: #ca4f0d;
+    user-select: none;
+    font-weight: 700;
+}
+
+.wrapper{
+    margin-top: -1vw;
+}
+
+.wrapper2{
+    margin-top: 6vw;
+}
+
+.jotta{
+    color: #ed60ca;
+    user-select: none;
+    font-weight: 700;
+}
+
+.elkjop{
+    color: #31bb0a;
+    user-select: none;
+    font-weight: 700;
+}
+
+#Versjon {
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-left: 1.2vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#Versjon4 {
+    font-size: 20pt;
+    margin-left: 1vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#Versjon2 {
+    font-size: 11pt;
+    margin-top: -20px;
+    margin-left: 2vw;
+    text-align: center;
+    width: 400px;
+}
+
+#Versjon3 {
+    font-size: 25pt;
+    text-align: center;
+    margin-left: 1vw;
+    margin-top: 6vw;
+    width: 410px;
+    color: whitesmoke;
+}

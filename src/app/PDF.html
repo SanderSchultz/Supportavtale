@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <title>SupportAvtale</title>
+    <link rel = "stylesheet" href="style.css" id = "normalcss">
+    
+  </head>
+  <body>
+    <section class = "supermainApp">
+      <div class = "mainApp">
+      <div class = "topebar">
+        <button id="minBtn" class = "buttonMinimize">&#128469</button>
+        <button id="closeBtn" class = "button">&#10006</button>
+      </div>
+
+      <div class = "gridden">
+        
+        <div class = "btn-group" style = "margin-top: 7vw;">
+          <img class = "imgar" src="../images/elkjopformain.png" alt ="">
+          <br>
+          <br>
+          <button id ="SupportAvtale">Supportavtale</button>
+          <button id ="Verktøy">Verktøy</button>
+          <button id ="LoginUpdate">Manuell PDF</button>
+          <button id ="Settings">Innstillinger</button>
+          <p id ="Oppdatering" class = "versjon">Versjon 0.0</p>
+        </div>
+
+        <span></span>
+
+        <div class = wrapper>
+          <div class = "grid4pdfNames">
+
+            <span></span>
+            <div class = "jotta">JottaCloud</div>
+            <img class = "pdfLogoes" src="../images/jotta1.png" alt ="">
+            <span></span>
+           
+          </div>
+          
+          <div class = "input-group">
+            <input id = JottaEpost placeholder="Epost">
+            <input id = JottaPassord placeholder="Passord">
+          </div>
+          
+          <br>
+          
+          <div class = "grid4pdfNames">
+    
+            <span></span>
+            <div class = "mcafee">McAfee</div>
+            <img class = "pdfLogoes" src="../images/Mcafee1i.png" alt ="">
+            <span></span>
+           
+          </div>
+    
+          <div class = "input-group">
+            <input id = McafeeEpost placeholder="Epost">
+            <input id = McafeePassord placeholder="Passord">
+          </div>
+    
+          <br>
+          
+          <div class = "grid4pdfNames">
+    
+            <span></span>
+            <div class = "office">Office</div>
+            <img class = "pdfLogoes" src="../images/Office142.png" alt ="">
+            <span></span>
+           
+          </div>
+           
+    
+          <div class = "input-group">
+            <input id = OfficeEpost placeholder="Epost">
+            <input id = OfficePassord placeholder="Passord">
+          </div>
+
+          <button id = "LAGPDF" class = "pdfbtn">Lag PDF</button>
+  
+        </div>
+
+        <span></span>
+
+        
+
+        <span></span>
+        
+      </div>
+    </section>
+    <script src = "./PDFrenderer.js" defer type="module"></script>
+  </body>
+</html>
