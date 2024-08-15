@@ -2,15 +2,7 @@
 
 Used for effectivizing employee workflow by automating tasks and centralizing tools
 
-## Features <br />
-
-* Web automation for account creation <br />
-* Generate customizable PDFs with information <br />
-* Run smaller scripts and files related to the setup <br />
-* Frequent updates depending on feedback or bug report from the other employees <br />
-* Encrypting data on portable device to provide consistency after updates <br />
-
-Deprecated as of May 2023 when Elkjøp took a stance on self made scripts after being dormant on the issue
+Deprecated since May 2023
 
 ![alt text](./src/images/support.png)
 
